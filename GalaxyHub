@@ -74,13 +74,6 @@ chats:AddButton({
   	end    
 })
 
-chats:AddButton({
-	Name = "Fake Chat V2",
-	Callback = function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/LiamBlue2014/OceanHub/main/Fake%20Chat%20V2'))()
-  	end    
-})
-
 farms:AddButton({
 	Name = "Build A Boat AutoFarm",
 	Callback = function()
