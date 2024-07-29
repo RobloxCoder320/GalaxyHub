@@ -70,8 +70,8 @@ chats:AddButton({
 chats:AddButton({
 	Name = "Fake Chat",
 	Callback = function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/LiamBlue2014/OceanHub/main/Fake%20Chat'))()
-  	end    
+ 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxCoder320/GalaxyHub/main/Fake%20Chat"))()
+	end
 })
 
 farms:AddButton({
