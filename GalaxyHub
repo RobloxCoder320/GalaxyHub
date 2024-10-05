@@ -49,7 +49,7 @@ admin:AddButton({
 guis:AddButton({
 	Name = "MM2 Gui",
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gladimore/Scripts/main/mm2.txt"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
   	end	
 })
 
