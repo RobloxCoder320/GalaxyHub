@@ -1,15 +1,16 @@
-print("GalaxyHub V1 - Executed")
-
-wait("3")
-
-print("GalaxyHub V1 - Loaded")
-
 local lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Orion/main/source'))()
 local window = lib:MakeWindow({
 	Name="GalaxyHub",
 	SaveConfig=false,
 	IntroEnabled=true,
 	IntroText="GalaxyHub V1"
+})
+
+OrionLib:MakeNotification({
+	Name = "Executed!",
+	Content = "Thanks For Using GalaxyHub, Have a nice game.",
+	Image = "rbxassetid://4483345998",
+	Time = 5
 })
 
 --[TABS]
@@ -57,6 +58,13 @@ guis:AddButton({
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
   	end	
+})
+
+guis:AddButton({
+	Name = "Fisch GUI",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nivex123456/main/refs/heads/main/Loader.lua"))()
+  	end    
 })
 
 guis:AddButton({
