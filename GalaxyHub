@@ -6,13 +6,6 @@ local window = lib:MakeWindow({
 	IntroText="GalaxyHub V1"
 })
 
-OrionLib:MakeNotification({
-	Name = "Executed!",
-	Content = "Thanks For Using GalaxyHub, Have a nice game.",
-	Image = "rbxassetid://4483345998",
-	Time = 5
-})
-
 --[TABS]
 local Main = window:MakeTab({Name="ⓘ-Main-ⓘ"})
 local Credits = window:MakeTab({Name="©-Credits-©"})
