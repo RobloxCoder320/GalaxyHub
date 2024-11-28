@@ -42,7 +42,7 @@ admin:AddButton({
 admin:AddButton({
 	Name = "Nameless Admin",
 	Callback = function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/yofriendfromschool1/NamelessAdmin-NO-BYFRON-GUI/main/Source'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/RobloxCoder320/GalaxyHub/refs/heads/main/NA%20-%20Nameless%20Admin'))()
   	end    
 })
 
