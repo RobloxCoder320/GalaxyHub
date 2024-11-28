@@ -77,7 +77,7 @@ scripts:AddButton({
 chats:AddButton({
 	Name = "Chat Bypass",
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/BakaPraselol/M0RCBV4LSB4KRS/main/Loader"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxCoder320/GalaxyHub/refs/heads/main/SYNERGY%20-%20CHAT%20BYPASS"))()
   	end    
 })
 
