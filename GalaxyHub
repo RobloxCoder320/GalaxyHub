@@ -67,6 +67,13 @@ guis:AddButton({
   	end    
 })
 
+scripts:AddButton({
+	Name = "Project Auto - JailBreak",
+	Callback = function()
+		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7540ba23dbc2a9228591964a91244237.lua"))()
+  	end    
+})
+
 chats:AddButton({
 	Name = "Chat Bypass",
 	Callback = function()
