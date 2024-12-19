@@ -118,13 +118,6 @@ local Button = Scripts:CreateButton({
 })
 
 local Button = Scripts:CreateButton({
-   Name = "Fishing Simulator Gui",
-   Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxCoder320/GalaxyHub/refs/heads/main/Fishing%20Simulator%20%5BNOT%20FISCH%5D%5D"))()
-   end,
-})
-
-local Button = Scripts:CreateButton({
    Name = "Arsenal Gui",
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/DatMxkey/Nexware/main/loader.lua"))()
