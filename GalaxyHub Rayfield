@@ -101,6 +101,13 @@ local Button = Scripts:CreateButton({
    end,
 })
 
+local Button = Scripts:CreateButton({
+   Name = "Jerk Script - R6 NEEDED",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")
+   end,
+})
+
 local guis = Scripts:CreateSection("GUIS")
 
 local Button = Scripts:CreateButton({
